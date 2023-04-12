@@ -1,0 +1,60 @@
+Rest/Spread:
+    ES6 provides us with a new operator, ..., that is context dependent. 
+    Its purpose is to capture the rest of a data set, or to spread content 
+    of an existing structure.
+Destructuring:
+    when you get the rest it can give u the result in two different object 
+    REACT 
+        React is going to be the code that runs on our user's browser, displaying the information 
+        we want them to see, reacting to user input, being responsible for not just the look and feel 
+        of our web app but most of its interactivity as well
+    React can be used to build a single page application or SPA, which will make our website feel more 
+    responsive by eliminating page loads for our users
+    React isn't opinionated about what technology we use with it; we can choose the libraries we use for: http requests,
+    front-end routing, styling, etc
+    React doesn't prevent us from using DOM manipulation already built into JavaScript
+    DOM is nothing but, a javascript object, react only updates section of the page where the change was made
+    no the entire page which is super efficient 
+    Virtual DOM is way faster then the regular DOM
+    REACT USE COMPONENTS 
+        Which means that web application are divided into small COMPONENTS
+        COMPONENTS is a small piece of the user interface 
+    TWO TYPES OF COMPONENTS
+    FUNCTIONAL  AND CLASS-BASED
+    JSX is used in REACT to describe what the User interface should look like 
+    PROPS:
+        allow you to pass dynamic data through react COMPONENTS
+        props are just arguments that you pass into react components 
+        they are passed via attributes, they are just a shorter way of saying 
+        properties
+        State  in react is a plain javascript object used by react to represent piece of 
+        information about the component's current situation, completely manged by the component itself
+    SCOPE 
+        scope is that are available to you with everything
+    let you can't have access to after the function, but var you does, what I mean is 
+    that var is globe available
+Synthetic Events
+    onChange - an event that runs when a form input is changed
+    onSubmit - an event that runs when a form is submitted
+    onFocus - an event that is run when an element is given focus (clicked on or tabbed to)
+    onBlur - an event that is run when an element loses focus (the user moves away from the element)
+useState:
+    is spacial way of  holding data in variables over our renders
+    the different between the props and state is that props is the way we pass information
+    from parent component to child COMPONENTS the values are all read only
+    state we able to hold data pacific  this instance ,but it also has ability to 
+    update that values 
+    State we use holding, update and changing values
+    In useState that we can create two local variables that we can use anywhere in our 
+    component.The first element of the returned array will be used to get (show) the current 
+    state value(not necessarily the initial state).
+    The second array element is a function used update this value. These are sometimes referred
+    to as "getters and setters."
+
+    :The "getter" name should describe the data it is holding
+    :The "setter" is named the same as the "getter" with the prefix of set
+
+
+    
+
+    

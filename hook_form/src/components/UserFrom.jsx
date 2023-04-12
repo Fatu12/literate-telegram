@@ -22,6 +22,7 @@ const UserFrom = (props) =>{
             setUserData(prevState => ({...userData, [event.target.name]:event.target.value}))
 
         }
+        // ls
     // const createUser = (event) =>{
     //     // console.log(event)
     //     event.preventDefault();
@@ -47,6 +48,7 @@ const UserFrom = (props) =>{
     //     const handleConfirmPassword = (event)=> {
     //         setConfirmPassword(event.target.value)
       // }
+
     
        return(
         <div>
